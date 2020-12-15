@@ -1,4 +1,8 @@
 function sysCall_threadmain()
+    nominalVel = 0.25
+    nominalAcc = 0.5
+
+    
     ik1=sim.getIkGroupHandle('IRB140_undamped')
     target=sim.getObjectHandle("IRB140_target")
     tip=sim.getObjectHandle("IRB140_tip")
